@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>RSS Reader</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Добавление RSS‑потока</h1>
+    <form id="rss-form">
+      <div class="mb-3">
+        <label for="rss-url" class="form-label">URL RSS‑потока</label>
+        <input type="text" class="form-control" id="rss-url" placeholder="Введите URL RSS" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Добавить</button>
+    </form>
+    <div id="feedback" class="mt-3"></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
